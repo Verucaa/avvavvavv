@@ -17,7 +17,7 @@ bash <(curl -s https://raw.githubusercontent.com/Verucaa/avvavvavv/main/install.
 - Install Tema Enigma
 - Uninstall Tema
 
- (Kode Token : liezz)
+ (Kode Token : -)
 
 ## System Support :
 
