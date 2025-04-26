@@ -7,7 +7,7 @@
 ## Command Install :
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Verucaa/avvavvavv/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/Verucaa/avvavvavv/refs/heads/main/install.sh)
 ```
 
 ## Fitur Tools :
