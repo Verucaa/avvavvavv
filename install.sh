@@ -229,7 +229,9 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
   echo -e "${GREEN}[+]                   INSTALL SUCCESS               [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e ""
-  sleep 5
+  sleep 2
+  clear
+  exit 0
   
   if [ "$SELECT_THEME" -eq 4 ]; then
   echo -e "                                                       "
@@ -247,9 +249,7 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
   echo -e "${GREEN}[+]                   INSTALL SUCCESS               [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e ""
-  sleep 2
-  clear
-  exit 0
+  sleep 5
   
 else
   echo ""
