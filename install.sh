@@ -532,7 +532,8 @@ while true; do
   read -r MENU_CHOICE
   clear
 
-  case "$MENU_CHOICE" in1)
+  case "$MENU_CHOICE" in
+  1)
       install_theme
       ;;
     2)
