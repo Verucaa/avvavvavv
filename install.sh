@@ -276,7 +276,7 @@ else
   echo ""
   echo "Pilihan tidak valid. silahkan pilih 1/2/3."
 fi
-}
+
 
 
 # Uninstall theme
