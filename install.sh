@@ -239,6 +239,8 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
   echo -e "                                                                   "
   sudo mkdir -p /etc/apt/keyrings && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg && sudo apt update && npm i -g yarn && sudo apt update && sudo apt upgrade -y && sudo apt install curl build-essential -y && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm --version && nvm install 20.18.1 && nvm use 20.18.1 && cd /var/www/pterodactyl && yarn && yarn build:production && php artisan migrate --force && php artisan view:clear
   export NODE_OPTIONS=--openssl-legacy-provider && yarn build:production && php artisan migrate --force && php artisan view:clear
+  cd /var/www/pterodactyl
+  yarn build:production
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
