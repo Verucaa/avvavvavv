@@ -494,7 +494,7 @@ while true; do
 ░░╚██╔╝░░███████╗██║░░██║╚██████╔╝╚█████╔╝██║░░██║██║░░██║ 
 ░░░╚═╝░░░╚══════╝╚═╝░░╚═╝░╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝ 
 "
-  echo -e "                                                                     "
+  echo -e "${NC}                                                                     "
   echo -e "LIST INSTALL :"
   echo "1. Install Theme"
   echo "2. Uninstall Theme"
